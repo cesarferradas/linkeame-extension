@@ -1,0 +1,17 @@
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  width: 300px;
+  padding: 20px;
+}
+
+input,
+input:disabled {
+  background-color: white;
+  border: none;
+  color: #00619a;
+  font-size: 16px;
+}
