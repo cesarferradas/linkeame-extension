@@ -1,0 +1,26 @@
+{
+  "name": "linkeame-browser",
+  "version": "1.0.0",
+  "description": "Acorta el URL de la pestaña actual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarferradas/linkeame-extension.git"
+  },
+  "keywords": [
+    "linkeame",
+    "url",
+    "acortador",
+    "enlaces",
+    "tinyurl"
+  ],
+  "author": "Linkeame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarferradas/linkeame-extension/issues"
+  },
+  "homepage": "https://github.com/cesarferradas/linkeame-extension#readme"
+}
