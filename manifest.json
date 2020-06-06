@@ -10,8 +10,9 @@
     },
 
     "permissions": [
-        "tabs",
-        "storage"
+        "clipboardWrite",
+        "storage",
+        "tabs"
     ],
 
     "browser_action": {
