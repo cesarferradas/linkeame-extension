@@ -1,23 +1,23 @@
 {
     "manifest_version": 2,
     "name": "Linkeame",
+    "author": "Linkeame",
+    "description": "Acorta el URL de la pestaña actual",
     "version": "1.0",
     "homepage_url": "https://linkea.me",
-
-    "description": "Acorta el URL de la pestaña actual",
     "icons": {
-        "32": "icons/linkeame-32.png"
+        "32": "icons/linkeame-32.png",
+        "48": "icons/linkeame-48.png",
+        "96": "icons/linkeame-96.png"
     },
-
     "permissions": [
         "clipboardWrite",
         "storage",
         "tabs"
     ],
-
     "browser_action": {
         "browser_style": true,
-        "default_icon": "icons/linkeame-32.png",
+        "default_icon": "icons/linkeame-48.png",
         "default_title": "Linkeame",
         "default_popup": "src/index.html"
     }
