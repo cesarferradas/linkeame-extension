@@ -1,7 +1,6 @@
 let state = {}
 
-const baseDomain = 'http://localhost:3000'
-// const baseDomain = 'https://linkea.me'
+const baseDomain = 'https://linkea.me'
 
 const shortUrl = document.getElementById('url')
 const copyCheckbox = document.getElementById('copy')
