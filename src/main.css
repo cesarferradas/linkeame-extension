@@ -9,15 +9,16 @@ body {
   padding: 8px;
 }
 
-p {
+div {
+  padding: 5px 0;
+}
+
+#url {
+  font-size: 15px;
   border-radius: 2px;
   border: solid 1px #ccc;
   color: #00619a;
   font-family: Courier, monospace;
   padding: 5px;
   width: 230px;
-}
-
-div {
-  padding-bottom: 5px;
 }

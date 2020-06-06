@@ -1,13 +1,14 @@
 let state = {}
 
-const baseDomain = 'https://linkea.me'
+const baseDomain = 'http://localhost:3000'
+// const baseDomain = 'https://linkea.me'
 
 const shortUrl = document.getElementById('url')
 const copyCheckbox = document.getElementById('copy')
 
 const copy = () => {
   if (state.autoCopy) {
-    const copyText = shortUrl.innerHTML
+    const copyText = shortUrl.value
     navigator.clipboard.writeText(copyText)
   }
 }
@@ -30,14 +31,14 @@ const shorten = (tabs) => {
           const obj = {}
           obj[url] = payload.data
           chrome.storage.local.set(obj)
-          shortUrl.innerHTML = payload.data
+          shortUrl.value = payload.data
           copy()
         } else {
-          shortUrl.innerHTML = payload.error || 'Error'
+          shortUrl.value = payload.error || 'Error'
         }
       })
   } else {
-    shortUrl.innerHTML = state[url]
+    shortUrl.value = state[url]
     copy()
   }
 }
