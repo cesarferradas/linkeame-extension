@@ -3,7 +3,7 @@
     "name": "Linkeame",
     "author": "Linkeame",
     "description": "Acorta el URL de la pestaña actual",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage_url": "https://linkea.me",
     "icons": {
         "32": "icons/linkeame-32.png",
