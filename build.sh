@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-zip -r -FS ../linkeame-extension.zip * --exclude '*.git*' '*.sh' '.*' package.json
+zip -r -FS ./extension.zip * --exclude '*.git*' '*.sh' '.*' package.json
